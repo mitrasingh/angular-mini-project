@@ -9,7 +9,6 @@ import { UserInputComponent } from './user-input/user-input.component';
   imports: [HeaderComponent, UserInputComponent],
 })
 export class AppComponent {
-  // Create onSubmit data method to retrieve property values from child
   calculateInvestmentResults(data: {
     initialInvestment: number;
     duration: number;
